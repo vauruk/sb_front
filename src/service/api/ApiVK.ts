@@ -2,6 +2,8 @@ import axios, { AxiosRequestConfig } from 'axios';
 import { IHttpClientRequestParameters } from './types';
 import { Config } from '../config';
 
+
+console.log("URL:", Config.apiURL)
 const optionsAuth = (token: string): AxiosRequestConfig => {
     return {
         baseURL: Config.apiURL,
