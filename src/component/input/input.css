@@ -1,0 +1,36 @@
+.inputSearch {
+    width: 90%;
+    font-size: x-large;
+    border: 0px;
+    background-color:  transparent;
+  }
+  
+  .search {
+    background-color: #c0c3c9;
+    padding: 10px;
+    width: 30%;
+    border-radius: 25px;
+  }
+  .center{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .buttonSearch{
+    box-sizing: border-box;
+    padding:10px;
+    border-radius: 25px;
+   
+  }
+
+  .divButton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    font-family: "verdana";
+  }
