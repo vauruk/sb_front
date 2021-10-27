@@ -10,7 +10,7 @@ function ContactItemVK(props: Props) {
         <>
             <div className="container">
                 <div className="ss">
-                    <img className="user-avatar" src={image.default} />
+                    <img className="user-avatar" src={image.default} alt="avatar" />
                 </div>
 
                 <div className="sub-container">
