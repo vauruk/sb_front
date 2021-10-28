@@ -53,7 +53,7 @@ function App() {
   return (
     <div className="App">
       <InputVK value={value}
-        placeholder="Jhon or Jhon 33"
+        placeholder="Jhon or Jhon 33 or 41 jhon mc "
         onKeyDown={_handleKeyDown}
         onChange={valueSearch} onPress={searchContact} />
       <p></p>
