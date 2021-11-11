@@ -48,6 +48,7 @@ function App() {
 
   const valueSearch = (value: any) => {
     setValue(value.target.value)
+    console.log("Teste value search: ")
   }
 
   return (
